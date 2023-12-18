@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  sidebar:
+    title: "IASDT-Workflows"
+    subtitle: "Documentation"
+    style: "floating"
+    logo: "/assets/logo.png"
+    search: true
+    contents:
+      - href: index.qmd
+        text: Introduction
+      - about.qmd
+      - architecture.qmd
+      - section: "Datasets"
+        contents:
+          - input.qmd
+          - output.qmd
+      - model.qmd
+      - section: "User Guide"      
+      - section: "References"
+
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: false
+
+
+
